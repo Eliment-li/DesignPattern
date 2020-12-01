@@ -1,18 +1,10 @@
 package com.litian.factory.instance;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import com.litian.factory.frame.ImageReader;
 
 public class JpegReader extends ImageReader {
     @Override
-    public FileInputStream Read(String Path) {
-        try {
+    public void Read() {
             System.out.println("读取Jpeg");
-            FileInputStream inStream = new FileInputStream(Path);
-            return inStream;
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            return null;
-        }
     }
 }
