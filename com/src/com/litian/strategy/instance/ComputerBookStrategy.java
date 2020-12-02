@@ -6,7 +6,7 @@ public class ComputerBookStrategy implements Strategy {
 
     @Override
     public double getFinalPrice(double price) {
-        return price*0.9;//10的折扣
+        return price*0.9;//10%的折扣
     }
 
 

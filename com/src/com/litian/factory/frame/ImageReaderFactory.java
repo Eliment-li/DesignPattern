@@ -1,7 +1,9 @@
 package com.litian.factory.frame;
 
 
-//抽象工厂
+/**
+ * 抽象工厂类
+ */
 public abstract  class ImageReaderFactory {
 
     public final ImageReader Create(){

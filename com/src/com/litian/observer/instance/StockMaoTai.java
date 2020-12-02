@@ -3,6 +3,8 @@ package com.litian.observer.instance;
 
 import com.litian.observer.frame.Stock;
 
+import java.sql.Time;
+import java.time.LocalTime;
 import java.util.Random;
 
 /**
@@ -31,7 +33,6 @@ public class StockMaoTai extends Stock {
                 if (change>=0.05) {
                     nofityObserver();
                 }
-
                 Thread.sleep(1000);
 
             }
