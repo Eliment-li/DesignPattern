@@ -1,6 +1,5 @@
 package com.litian.factory.frame;
 
-
 /**
  * 抽象工厂类
  */
