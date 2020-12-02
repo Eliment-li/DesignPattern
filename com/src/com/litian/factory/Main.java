@@ -21,8 +21,4 @@ public class Main {
         TiffReader.Read();
     }
 
-
-   /* ImageReader jpegReader=factory.Create();
-    ImageReader tiffReader=factory.Create();*/
-
 }
