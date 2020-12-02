@@ -13,12 +13,12 @@ public  abstract class Stock {
         observers.remove(observer);
 
     }
-    public  void  nofity(){
+    public  void  nofityObserver(){
         for(Object o:observers){
             Observer observer= (Observer) o;
             observer.update(this);
         }
     }
-    public abstract void getCurrentPrice();
+    public abstract int getCurrentPrice();
     public  abstract void execute();
 }

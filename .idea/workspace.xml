@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697717c1-af62-4739-8025-6428624ab6df" name="Default" comment="--">
-      <change afterPath="$PROJECT_DIR$/com/src/com/litian/observer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/src/com/litian/observer/frame/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/src/com/litian/observer/frame/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/src/com/litian/observer/instance/Holder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/src/com/litian/observer/instance/StockMaoTai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/src/com/litian/observer/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/src/com/litian/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/src/com/litian/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/src/com/litian/observer/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/src/com/litian/observer/frame/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/src/com/litian/observer/frame/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/src/com/litian/observer/instance/Holder.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/src/com/litian/observer/instance/Holder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/src/com/litian/observer/instance/StockMaoTai.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/src/com/litian/observer/instance/StockMaoTai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/com/com/litian/factory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/com/com/litian/factory/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.litian.observer.Main" />
+      <module name="com" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.litian.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -120,6 +134,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +151,7 @@
       <workItem from="1606727165472" duration="1716000" />
       <workItem from="1606823977582" duration="3858000" />
       <workItem from="1606877316386" duration="402000" />
-      <workItem from="1606877742340" duration="1570000" />
+      <workItem from="1606877742340" duration="3469000" />
     </task>
     <servers />
   </component>
@@ -165,6 +180,38 @@
     </state>
     <state x="738" y="283" key="#com.intellij.ide.util.MemberChooser/48.25.1744.1095@48.25.1744.1095" timestamp="1606890620131" />
     <state x="739" y="283" key="#com.intellij.ide.util.MemberChooser/49.25.1743.1095@49.25.1743.1095" timestamp="1606890464257" />
+    <state width="1690" height="300" key="GridCell.Tab.0.bottom" timestamp="1606892494379">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="300" key="GridCell.Tab.0.bottom/49.25.1743.1095@49.25.1743.1095" timestamp="1606892494379" />
+    <state width="1690" height="300" key="GridCell.Tab.0.center" timestamp="1606892494378">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="300" key="GridCell.Tab.0.center/49.25.1743.1095@49.25.1743.1095" timestamp="1606892494378" />
+    <state width="1690" height="300" key="GridCell.Tab.0.left" timestamp="1606892494378">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="300" key="GridCell.Tab.0.left/49.25.1743.1095@49.25.1743.1095" timestamp="1606892494378" />
+    <state width="1690" height="300" key="GridCell.Tab.0.right" timestamp="1606892494378">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="300" key="GridCell.Tab.0.right/49.25.1743.1095@49.25.1743.1095" timestamp="1606892494378" />
+    <state width="1690" height="370" key="GridCell.Tab.1.bottom" timestamp="1606892445694">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="370" key="GridCell.Tab.1.bottom/49.25.1743.1095@49.25.1743.1095" timestamp="1606892445694" />
+    <state width="1690" height="370" key="GridCell.Tab.1.center" timestamp="1606892445693">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="370" key="GridCell.Tab.1.center/49.25.1743.1095@49.25.1743.1095" timestamp="1606892445693" />
+    <state width="1690" height="370" key="GridCell.Tab.1.left" timestamp="1606892445693">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="370" key="GridCell.Tab.1.left/49.25.1743.1095@49.25.1743.1095" timestamp="1606892445693" />
+    <state width="1690" height="370" key="GridCell.Tab.1.right" timestamp="1606892445693">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state width="1690" height="370" key="GridCell.Tab.1.right/49.25.1743.1095@49.25.1743.1095" timestamp="1606892445693" />
     <state x="405" y="196" key="SettingsEditor" timestamp="1606877715888">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -173,6 +220,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1606877413794" />
+    <state x="718" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606891734473">
+      <screen x="49" y="25" width="1743" height="1095" />
+    </state>
+    <state x="718" y="490" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/49.25.1743.1095@49.25.1743.1095" timestamp="1606891734473" />
   </component>
   <component name="masterDetails">
     <states>
