@@ -4,7 +4,10 @@ import com.litian.strategy.book.Book;
 import com.litian.strategy.instance.ComputerBookStrategy;
 import com.litian.strategy.instance.LanguageBookStrategy;
 import com.litian.strategy.instance.NovelBookStragety;
-
+/**
+ * @author li
+ *策略模式 测试类
+ */
 public class Main {
     public static void main(String[] args) {
 

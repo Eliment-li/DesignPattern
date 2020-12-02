@@ -4,6 +4,8 @@ import com.litian.factory.instance.GifReader;
 import com.litian.factory.instance.GifReaderFactory;
 import com.litian.factory.frame.ImageReaderFactory;
 import com.litian.factory.frame.ImageReader;
+import com.litian.factory.instance.JpegReaderFactory;
+import com.litian.factory.instance.TiffReaderFactory;
 
 /**
  * @author li
@@ -11,11 +13,14 @@ import com.litian.factory.frame.ImageReader;
  */
 public class Main {
     public static void main(String[] args) {
-        ImageReaderFactory factory=new GifReaderFactory();
-        ImageReader GifReader=factory.Create();
+        ImageReaderFactory gifReaderFactory=new GifReaderFactory();
+        ImageReaderFactory jepgReaderFactory=new JpegReaderFactory();
+        ImageReaderFactory tiffReaderFactory=new TiffReaderFactory();
 
-        ImageReader JpegReader=factory.Create();
-        ImageReader TiffReader=factory.Create();
+        ImageReader GifReader=gifReaderFactory.Create();
+        ImageReader JpegReader=jepgReaderFactory.Create();
+        ImageReader TiffReader=tiffReaderFactory.Create();
+
         GifReader.Read();
         JpegReader.Read();
         TiffReader.Read();
